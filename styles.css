@@ -1,0 +1,37 @@
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+body {
+	background-color:pink;
+	font-family:'Times New Roman', serif;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#container {
+	width:163px;
+	margin:20px auto;
+}
+
+#container input, button, p {
+	padding:10px;
+}
+
+#container input {
+	width:161px;
+	text-align:center;
+}
+
+#container button {
+	margin:20px 5px;
+}
+
+#container p {
+	margin:10px 0;
+	text-align:center;
+}
